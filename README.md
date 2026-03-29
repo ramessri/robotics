@@ -4,7 +4,9 @@
 
 A research repository exploring autonomous humanoid robotics from first principles, with a focus on dexterous manipulation.
 
-This work is an ongoing research effort into human-to-humanoid motion retargeting and dexterous grasping — building toward systems that can operate in unstructured environments with human-level manipulation capability.
+This work is an ongoing research effort into dexterous manipulation — building toward systems that can operate in unstructured environments with human-level manipulation capability.
+
+As of March 2026, I am currently implementing a simple dexterous manipulation setup to study how sensory inputs affect grasp stability. My goal is to understand generalisation in contact-rich tasks before scaling to complex realworld data and systems.
 
 ---
 
@@ -139,8 +141,8 @@ Train in simulation, deploy on hardware, measure performance degradation. Identi
 ## Simulation and Deployment
 
 **Simulation**
-- Isaac Sim / Isaac Lab — GPU-parallelised, PhysX backend
-- MuJoCo — fast, accurate, standard in research
+- Isaac Sim / Isaac Lab — GPU-parallelised, PhysX backend (in future). 
+- We're using MuJoCo in Kaggle due to PC hardware constraint and concepts are transferable.
 
 **Pipeline**
 - Collect or retarget demonstrations
@@ -198,15 +200,6 @@ Train in simulation, deploy on hardware, measure performance degradation. Identi
 
 ---
 
-## Status
-
-**Early 2026**
-- [ ] Simulation environment setup (IsaacLab)
-- [ ] Behaviour cloning baseline
-- [ ] Kinematics and retargeting pipeline
-- [ ] Grasp synthesis integration
-- [ ] RL fine-tuning
-- [ ] Hardware deployment
 
 This is an active research repository. Structure and scope will evolve with the work.
 
