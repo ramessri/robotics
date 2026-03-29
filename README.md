@@ -4,7 +4,7 @@
 
 A research repository exploring autonomous humanoid robotics from first principles, with a focus on dexterous manipulation.
 
-This work is part of an ongoing research effort into human-to-humanoid motion retargeting and dexterous grasping — building toward systems that can operate in unstructured environments with human-level manipulation capability.
+This work is an ongoing research effort into human-to-humanoid motion retargeting and dexterous grasping — building toward systems that can operate in unstructured environments with human-level manipulation capability.
 
 ---
 
@@ -25,9 +25,9 @@ This is the question every design decision is evaluated against.
 ## System Overview
 
 ```
-Perception (vision + touch + proprioception)
+  → Perception (vision + touch + proprioception)
   → latent state estimation
-  → policy (RL / IL)
+  → intelligence policy (RL / IL)
   → control (IK + dynamics)
   → hardware
 ```
@@ -185,11 +185,11 @@ Train in simulation, deploy on hardware, measure performance degradation. Identi
 
 ---
 
-## Key References
+## Key References (TBA)
 
 | Paper | Relevance |
 |-------|-----------|
-| [DexMachina (2025)](https://dexmachina.github.io/) | Human MoCap → robot hand retargeting pipeline |
+| [DexMachina (2025)](https://project-dexmachina.github.io/) | Human MoCap → robot hand retargeting pipeline |
 | [OmniRetarget](https://omniretarget.github.io/) | Interaction-preserving whole-body retargeting |
 | [DynaRetarget](https://arxiv.org/abs/2602.06827) | Dynamically-feasible trajectory retargeting |
 | [GraspQP](https://arxiv.org/abs/2508.15002) | Differentiable force-closure grasp synthesis |
